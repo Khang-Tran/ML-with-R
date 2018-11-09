@@ -24,4 +24,5 @@ print(over.23)
 
 #7
 highest <- max(stock.prices)
-print(highest)
+highestDate <- stock.prices[stock.prices == highest]
+print(highestDate)
